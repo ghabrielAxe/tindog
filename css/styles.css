@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+/*headings */
+h1,h2,h3,h4,h5 {
+    text-align: center;
+    font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 3rem; 
+}
+h3 {
+    font-size:2rem ;
+}
+.big-heading {
+    font-size:4.5rem ;
+    color: #fff;
+}
+p {
+    text-align: center;
+}
+/*containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+/*Sections */
+.white-section{
+   background-color: #fff;
+}
+.color-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+/*navbar Section*/
+.navbar-brand {
+    font-size: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.navbar {
+    padding:0 0 4rem ;
+}
+.nav-item {
+    padding:0 18px;
+}
+#navbarTogglerDemo02 a {
+    font-size: 1.5rem;
+    color: #fcfcfc7c;
+}
+#navbarTogglerDemo02 a:hover{
+    color: #fff;
+}
+/*Title Section*/
+#title .container-fluid{
+    padding: 3% 15%;
+}
+#title h1 {
+    text-align: left;
+}
+.title-image {
+    width:70%;
+    transform: rotate(25deg);
+}
+.dog-image {
+    position: absolute;
+    margin-left: 70px;
+}
+.download-button-top {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+/*features Section*/
+#features {
+    position: relative;
+    z-index: 1;
+} 
+.icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icons:hover {
+    color: #f64c68;
+}
+.feature-box {
+    padding: 4.5%;
+    text-align: center;
+}
+.feature-box p {
+    color: #8f8f8f;
+}
+/*testimonials Section*/
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px; 
+/*press Section*/
+}
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
+}
+.press-logos {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/*pricing Section*/
+.price-column {
+    padding: 5% 3%;
+}
+/*cta Section*/
+.download-button-bottom {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+/*footer Section*/
+#footer {
+    padding: 3% 7%;
+}
+#footer i {
+    margin:15px;
+}
+.copyright {
+    color: #838282;
+}
+@media screen and (max-width: 992px)  {
+
+#title {
+    line-height: 3;
+}
+.title-image {
+    width:60%;
+    transform: rotate(0);
+}
+.dog-image {
+    position: static;
+}
+.download-button-top {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.download-button-bottom {
+    font-size: 2rem;
+}
+.testimonial-image {
+    width: 40%;
+}
+}
